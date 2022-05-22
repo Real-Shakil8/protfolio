@@ -1,0 +1,77 @@
+table{
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    
+}
+tr:nth-child(odd){
+    background-color: orange;
+}
+tr:nth-child(even){
+    background-color: orangered;
+}
+
+table,th,tr,td{
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+caption{
+    color: rgb(3, 2, 49);
+}
+
+.skill{
+    width: 300px;
+    height: 100%;
+    margin-top: 15px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+.form{
+    border: 2px solid green;
+}
+
+input{
+    border-radius: 5px;
+    text-align: ;
+}
+#submit:hover{
+    color: white;
+    background-color: orange;
+    font-size: 110%;
+    font-weight: bolder;
+    border-radius: 12px;
+}
+#rester:hover{
+    color: white;
+    background-color: orange;
+    font-size: 110%;
+    font-weight: bolder;
+    border-radius: 12px;
+    
+}
+#usflag img{
+    width: 50px;
+    height: 40px;
+}
+#myimg1 img{
+    border: 10px solid rgb(201, 221, 20);
+    padding: 3px;
+}
+.name::first-letter{
+    font-size: 200%;
+    color: blue;
+    border: 2px solid orangered;
+    border-radius: 12px;
+}
+.name{
+    display: inline-block;
+}
+.fast-pera{
+    display: inline-block;
+}
+.education table caption{
+    font-weight: bold;
+    background-color: skyblue;
